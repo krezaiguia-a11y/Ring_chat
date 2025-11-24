@@ -1,0 +1,43 @@
+# Python 3.10+ erforderlich
+# Keine externen Dependencies - nur Standard Library!
+
+# Optional für Development:
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Optional für farbige Ausgabe:
+colorama>=0.4.6
+```
+
+---
+
+## 2️⃣ **`.gitignore`**
+```
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
